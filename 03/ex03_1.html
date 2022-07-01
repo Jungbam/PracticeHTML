@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>입력 폼 만들기</title>
+  </head>
+  <body>
+    <h3>텍스트 입력 창</h3>
+    <!--입력 창은 input으로 만들어지고 input은 form 요소 안에 작성해야 함.-->
+      <h2>
+        이름 :
+        <input type="text" />
+      </h2>
+      <h2>비밀번호 :
+      <input type="password" />
+    </h2>
+    <h2>이메일 수신 : 
+        <!--name을 똑같이 해줘야 세트로 묶임. / checked 옵션은 시작시 default 값으로 삼는 다는 것임.-->
+<label><input type="radio" name="email" checked> 예</label>
+<input type="radio" name="email"> 아니오</h2>
+<h2><p>tv에서 즐겨보는 분야는?</p>
+    <input type="checkbox" name="item1" id="1" ><label for="1">뉴스</label> 
+    <input type="checkbox" name="item2" id="2"><label for="2">드라마</label> 
+    <input type="checkbox" name="item3" id="3"><label for="3">스포츠</label> 
+    <input type="checkbox" name="item4" id="4"><label for="4">엔터테이먼트</label> 
+
+    <label><input type="checkbox" name="item4" id="4">라벨로만 둘렀을 때</label> 
+</h2>
+    </form>
+  </body>
+</html>

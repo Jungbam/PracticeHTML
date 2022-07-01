@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #box {
+        width: 10px;
+        height: 1000px;
+        background-color: green;
+      }
+      #move {
+        position: absolute;
+        top: 100px;
+        right: 100px;
+        border: 1px solid red;
+        width: 100px;
+        height: 300px;
+      }
+      #a {
+        /*position: fixed는 고정된 값이다. 
+        스크롤로 화면을 움직여도 그 위치 그대로에 있다. 
+        부모나 뭐나 다 상관하지 않는다.*/
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background-color: red;
+        padding: 10px 20px;
+        color: #ffff;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>절대적 위치 지정(position : absolute)</h3>
+    <div id="box"></div>
+    <div id="move">
+      <div id="a">요소 A</div>
+    </div>
+  </body>
+</html>

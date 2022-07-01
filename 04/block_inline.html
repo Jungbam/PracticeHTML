@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>div</title>
+    <style>
+      div,
+      p {
+        border: 1px solid red;
+        height: 100px;
+        width: 100px;
+      }
+      span {
+        border: 1px solid red;
+        height: 100px;
+        width: 100px;
+      }
+      /*div는 크기 조정이 되지만, span은 되지 않음.*/
+    </style>
+  </head>
+  <body>
+    <!--block 요소 : div, p / 한 줄을 차지해버림.-->
+    <div>div</div>
+    <div>div</div>
+
+    <p>p</p>
+    <p>p</p>
+    <div>
+      <span>1</span>
+      <span>2</span>
+      <span>3</span>
+      <span>4</span>
+    </div>
+    <!--inline 요소 : span, img / 한 줄을 먹는 것이 아닌 크기만큼만 먹음.-->
+    <span>span</span>
+    <span>span</span>
+  </body>
+</html>

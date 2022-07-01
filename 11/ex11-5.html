@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css_front/col.css" />
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    header {
+      padding: 20px;
+      border-bottom: 1px solid #000;
+    }
+    img {
+      max-width: 100%;
+    }
+    nav {
+      float: left;
+      width: 20%;
+      padding: 15px;
+    }
+    main {
+      float: left;
+      width: 80%;
+      padding: 20px;
+    }
+    li {
+      list-style-type: none;
+    }
+    @media only screen and (max-width: 768px) {
+      nav,
+      main {
+        width: 100%;
+      }
+    }
+  </style>
+  <body>
+    <header>
+      <h2>포토 갤러리</h2>
+    </header>
+    <nav>
+      <ul>
+        <li>작품사진1</li>
+        <li>작품사진2</li>
+        <li>작품사진3</li>
+        <li>작품사진4</li>
+      </ul>
+    </nav>
+    <main>
+      <h3>작품사진 1</h3>
+      <section>
+        <img src="img/image2.jpg" alt="The castle" />
+      </section>
+    </main>
+  </body>
+</html>

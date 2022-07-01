@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #section {
+        width: 700px;
+        border: 3px solid red;
+        height: 300px;
+        margin: 0 auto;
+        background-color: green;
+        color: white;
+      }
+      #k1st,
+      #k2nd,
+      #k3rd,
+      #k4th {
+        float: left;
+        margin: 50px 40px;
+      }
+      li {
+        list-style: none;
+      }
+      .clearboth {
+        content: '';
+        display: block;
+        clear: both;
+      }
+      /*float 이후 정상적으로 입력하기 원하면 clear : both 이용*/
+    </style>
+  </head>
+  <body>
+    <main>
+      <div id="section">
+        <div id="k1st">
+          <h3>병원 소개</h3>
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+          </ul>
+        </div>
+        <div id="k2nd">
+          <h3>병원 소개</h3>
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+          </ul>
+        </div>
+        <div id="k3rd">
+          <h3>병원 소개</h3>
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+          </ul>
+        </div>
+        <div id="k4th">
+          <h3>병원 소개</h3>
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+          </ul>
+        </div>
+        <h2>클리어보쓰 안하면 여기</h2>
+        <h2 class="clearboth">여기</h2>
+      </div>
+      <h2>여기</h2>
+    </main>
+  </body>
+</html>

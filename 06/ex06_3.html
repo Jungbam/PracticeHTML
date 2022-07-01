@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: '돋움';
+        color: #4444;
+      }
+      h1,
+      h3 {
+        text-decoration: underline;
+        color: green;
+      }
+      p,
+      span {
+        line-height: 150%;
+        font-size: 18px;
+      }
+      p {
+        line-height: 100%;
+      }
+      ul {
+        padding: 0px 20px;
+        width: 300px;
+        border: 3px solid #444;
+        border-radius: 20px;
+      }
+      /*ID는 영어로 시작*/
+      #in1 {
+        color: red;
+      }
+      .jhy {
+        color: orange;
+      }
+      li h3 {
+        color: blue;
+        border-bottom: 1px dashed green;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>요리의 방법</h1>
+    <ul>
+      <li>
+        <h3>끓이기</h3>
+        <p id="in1">
+          식품에 물을 가하여 100도씨의 온도에서
+          <span class="jhy">끓이는 조리방법</span>
+          이다. 국, 찌개 등을 만드는 방법으로 열을 가하여 조리를 한다.
+        </p>
+      </li>
+      <li>
+        <h3>튀기기</h3>
+        <p class="jhy">
+          튀기기는 맛이 담백한 생선, 새우, 채소 등에 많이 쓰이는 조리 방법으로
+          <span>끓는 기름속에서 식품을 가열</span>
+          하는 방법이다.
+        </p>
+      </li>
+    </ul>
+  </body>
+</html>

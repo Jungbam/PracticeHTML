@@ -1,0 +1,30 @@
+#hero_content::before,
+#hero_content::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  height: 90%;
+  transform: translate(-50%, -50%);
+  transition: all 0.85;
+}
+.hero_content::before {
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  width: 0;
+}
+.hero_content::before {
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  height: 0;
+}
+#hero_content:hover #hero_content {
+  display: block;
+}
+#hero_content:hover::after {
+  height: 90%;
+}
+#hero_content:hover::before {
+  width: 90%;
+}
